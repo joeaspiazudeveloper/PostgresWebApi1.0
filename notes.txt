@@ -1,0 +1,18 @@
+- The folder PostgresWebApi can be builded with docker.
+
+Steps to run the project
+
+1. docker compose up --build
+2. docker compose up demo-app
+
+After run these commands we can check the endpoint to get carbrands
+Endpoint:
+
+- Please open a postman
+http://localhost:8088/carbrands
+
+
+Note: Please check the capture in the same path of notes.txt.
+
+Note: I have to check the tests with docker, I can run in Visual Studio 2022 but I am facing some issues when
+I tried to run with docker.
